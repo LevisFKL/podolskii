@@ -1,0 +1,17 @@
+{
+  "name": "levisfkl/podolskii",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Podolskii Maksim",
+      "email": "maxpodlol@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "podolskii\\": ""
+    }
+  }
+}
