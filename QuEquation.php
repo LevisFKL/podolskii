@@ -4,9 +4,7 @@ use core\EquationInterface;
 
 Class QuEquation extends Equation implements EquationInterface{
 	
-	protected function dis($a, $b, $c){
-		return ($b**2)-4*$a*$c;
-		}
+
 	
 	public function solve($a, $b, $c):array{
 
@@ -30,6 +28,10 @@ Class QuEquation extends Equation implements EquationInterface{
 		throw new PodolskiiException("Ошибка: уравнение не имеет корней.");
 		
 	}
+
+    protected function dis($a, $b, $c){
+        return $a = ($b**2)-4*$a*$c;
+    }
 	
 }
 
